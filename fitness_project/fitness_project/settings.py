@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
     'registration_app'
 ]
 
@@ -131,6 +132,4 @@ connect(
     db='fitness_tracker_database',
     host='localhost',
     port=27017,
-    username='sonia',  # optional
-    password='Sonia772',  # optional
 )
